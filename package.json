@@ -4,14 +4,19 @@
   "description": "Example: how to use node 'node-red-contrib-biomio' to perform authentication",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "./node_modules/.bin/nf start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergiy Dragunov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/biomio/biomio-node-red-example.git"
+  },
   "dependencies": {
     "express": "^4.13.4",
+    "foreman": "^1.4.1",
     "node-red": "^0.13.1",
-    "node-red-contrib-biomio": "git+https://git@bitbucket.org/biomio/node-red-contrib-biomio.git"
+    "node-red-contrib-biomio": "*"
   }
 }
