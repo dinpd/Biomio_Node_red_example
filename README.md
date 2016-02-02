@@ -3,12 +3,15 @@ This code explains how to integrate our node "node-red-contrib-biomio" into you 
 
 ## Install
 
- `git clone ...`
+  git clone git@bitbucket.org:biomio/node-red-contrib-biomio.git
 
- `npm install`
+  cd node-red-contrib-biomio
+
+  npm install
+
 
 ## Run
 
- `npm start`
+  npm start
 
- go to http://127.0.0.1:8000/
+  go to http://127.0.0.1:8000/
