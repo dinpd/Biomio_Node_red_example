@@ -15,3 +15,10 @@ This code explains how to integrate our node "node-red-contrib-biomio" into you 
   npm start
 
   go to http://127.0.0.1:8000/
+  
+  
+  
+  
+Biomio - adaptive multi-factor authenticator with emphasis on passwordless via AI
+
+//developed with help from Vakoms Digital Transformation Services - vakoms.com
